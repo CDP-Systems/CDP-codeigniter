@@ -1,0 +1,27 @@
+<skin>
+	<preloader enabled ="true" value="skin5/sequence.swf"/>
+	<previous enabled="true" out="skin5/Out/prev.png" over="skin5/Over/prev.png" press="skin5/Out/prev.png"/>
+	<rewind enabled="true" out="skin5/Out/rewind.png" over="skin5/Over/rewind.png" press="skin5/Out/rewind.png" />
+	<stop enabled="true" out="skin5/Out/stop.png" over="skin5/Over/stop.png" press="skin5/Out/stop.png"  />
+	<play enabled="true" out="skin5/Out/play.png" over="skin5/Over/play.png" press="skin5/Out/play.png"/>
+	<pause enabled="true" out="skin5/Out/pause.png" over="skin5/Over/pause.png" press="skin5/Out/pause.png"  />
+	<fastForward enabled="true" out="skin5/Out/forward.png" over="skin5/Over/forward.png" press="skin5/Out/forward.png"/>
+	<next enabled="true" out="skin5/Out/next.png" over="skin5/Over/next.png" press="skin5/Out/next.png" />
+	<currentTime enabled="true" out="skin5/background.png" />
+	<scrubber enabled="true" bk="skin5/background.png" bar="skin5/bar.png" pointer="skin5/pointer.png"	loadedColor="0x404040" loadedAlpha="100" passedColor="0x00aeff" passedAlpha="100"  valign="center"/>	
+	<totalTime enabled="true" out="skin5/background.png" />
+	<volumeButton enabled="true" out="skin5/Out/volume.png" over="skin5/Over/volume.png" press="skin5/Out/volume.png" />
+	<muteButton enabled="true" out="skin5/Out/mute.png"  over="skin5/Over/mute.png"  press="skin5/Out/mute.png"/>
+	<volumeSlider enabled="true" bk="skin5/background.png" bar="skin5/bar.png" pointer="skin5/pointer.png" passedColor="0x00aeff" passedAlpha="100" />
+	<fullscreen enabled="true" out="skin5/Out/fullscreen.png" over="skin5/Over/fullscreen.png" press="skin5/Out/fullscreen.png" />
+	<restore enabled="true" out="skin5/Out/restore.png" over="skin5/Over/restore.png" press="skin5/Out/restore.png" />
+	<repeat enabled="true" out="skin5/Out/repeat.png" over="skin5/Over/repeat.png" press="skin5/Out/repeat.png" />
+	<repeatOff enabled="true" out="skin5/Out/repeatoff.png" over="skin5/Over/repeatoff.png" press="skin5/Out/repeatoff.png" />
+	<shuffle enabled="true" out="skin5/Out/shuffle.png" over="skin5/Over/shuffle.png" press="skin5/Out/shuffle.png" />
+	<shuffleOff enabled="true" out="skin5/Out/shuffleoff.png" over="skin5/Over/shuffleoff.png" press="skin5/Out/shuffleoff.png"/>
+	<info enabled="true" out="skin5/Out/info.png" over="skin5/Over/info.png" press="skin5/Out/info.png"/>
+	<list enabled="true" out="skin5/Out/playlist.png" over="skin5/Over/playlist.png" press="skin5/Out/playlist.png"/>
+	<centerButtons enabled="true" play="skin5/playCenter.png" pause="skin5/pauseCenter.png"	rollOverTransparency="70"
+					rollOutTransparency="50" easingType="Regular" easingMethod="easeOut" easingDuration="0.1" />
+	<infoCloseBtn value="skin5/close.png"/>				
+</skin>

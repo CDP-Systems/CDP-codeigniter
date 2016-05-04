@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+<title>MDnetSolutions</title>
+<link>http://mdnetdemo.com/template/perfect/</link>
+<description>Podcasts</description>
+<channel>
+<item>
+ <title>Test</title>
+ <link>http://mdnetdemo.com/template/perfect/uploads/podcasts/welcome1.mp3</link>
+<description>This is a TEST MESSAGE submitted for QA-Purposes. Please disregard.</description>
+<language>en-us</language>
+</item>
+</channel>
+</rss>

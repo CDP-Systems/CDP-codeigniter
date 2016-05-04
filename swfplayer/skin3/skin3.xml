@@ -1,0 +1,27 @@
+<skin>
+	<preloader enabled ="true" value="skin3/sequence.swf"/>
+	<previous enabled="true" out="skin3/out/prev.gif" over="skin3/over/prev.gif" press="skin3/out/prev.gif"/>
+	<rewind enabled="true" out="skin3/out/rewind.gif" over="skin3/over/rewind.gif" press="skin3/out/rewind.gif" />
+	<stop enabled="true" out="skin3/out/stop.gif" over="skin3/over/stop.gif" press="skin3/out/stop.gif"  />
+	<play enabled="true" out="skin3/out/play.gif" over="skin3/over/play.gif" press="skin3/out/play.gif"/>
+	<pause enabled="true" out="skin3/out/pause.gif" over="skin3/over/pause.gif" press="skin3/out/pause.gif"  />
+	<fastForward enabled="true" out="skin3/out/forward.gif" over="skin3/over/forward.gif" press="skin3/out/forward.gif"/>
+	<next enabled="true" out="skin3/out/next.gif" over="skin3/over/next.gif" press="skin3/out/next.gif" />
+	<currentTime enabled="true" out="skin3/background.gif" />
+	<scrubber enabled="true" bk="skin3/background.gif" bar="skin3/bar.gif" pointer="skin3/pointer.gif"	loadedColor="0x404040" loadedAlpha="100" passedColor="0x00aeff" passedAlpha="100"  valign="center"/>	
+	<totalTime enabled="true" out="skin3/background.gif" />
+	<volumeButton enabled="true" out="skin3/out/volume.gif" over="skin3/over/volume.gif" press="skin3/out/volume.gif" />
+	<muteButton enabled="true" out="skin3/out/mute.gif"  over="skin3/over/mute.gif"  press="skin3/out/mute.gif"/>
+	<volumeSlider enabled="true" bk="skin3/background.gif" bar="skin3/bar.gif" pointer="skin3/pointer.gif" passedColor="0x00aeff" passedAlpha="100" />
+	<fullscreen enabled="true" out="skin3/out/fullscreen.gif" over="skin3/over/fullscreen.gif" press="skin3/out/fullscreen.gif" />
+	<restore enabled="true" out="skin3/out/restore.gif" over="skin3/over/restore.gif" press="skin3/out/restore.gif" />
+	<repeat enabled="true" out="skin3/out/repeat.gif" over="skin3/over/repeat.gif" press="skin3/out/repeat.gif" />
+	<repeatOff enabled="true" out="skin3/out/repeatoff.gif" over="skin3/over/repeatoff.gif" press="skin3/out/repeatoff.gif" />
+	<shuffle enabled="true" out="skin3/out/shuffle.gif" over="skin3/over/shuffle.gif" press="skin3/out/shuffle.gif" />
+	<shuffleOff enabled="true" out="skin3/out/shuffleoff.gif" over="skin3/over/shuffleoff.gif" press="skin3/out/shuffleoff.gif"/>
+	<info enabled="true" out="skin3/out/info.gif" over="skin3/over/info.gif" press="skin3/out/info.gif"/>
+	<list enabled="true" out="skin3/out/playlist.gif" over="skin3/over/playlist.gif" press="skin3/out/playlist.gif"/>
+	<centerButtons enabled="true" play="skin3/playCenter.gif" pause="skin3/pauseCenter.gif"	rollOverTransparency="70"
+					rollOutTransparency="50" easingType="Regular" easingMethod="easeOut" easingDuration="0.1" />
+	<infoCloseBtn value="skin3/close.gif"/>				
+</skin>

@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { background: url(../../images/admin/bg.jpg) top repeat-x #0d212a; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #2d2d29; line-height: 18px; }
+
+p { line-height: 18px; }
+
+.left { float:left; }
+.right { float: right; }
+.clear { clear: both; }
+.hide { display: none; }
+
+#container { margin: 0 auto; width: 960px; height: auto; }
+#wrap { width: 960px; margin: 40px 0; }
+
+/*******Header*******/
+
+#header { background: url(../../images/admin/admin/header-bg.jpg) top; height: 120px; }
+#header .top-links { width: 400px; margin-top:40px; } 
+#header .top-links .admin { background: url(../../images/admin/icon-admin.png) no-repeat left; padding-left:25px; font-size: 14px; color: #fff; }
+#header .top-links .mail a { background: url(../../images/admin/icon-mail.png) no-repeat left; padding-left:25px; font-size: 11px; font-weight: bold; text-decoration: none; color: #fff; display: block; }
+#header .top-links .mail a:hover { text-decoration: underline; }
+#header .logo a { width: 373px; height: 103px; margin-top: 7px; background: url(../../images/admin/logo.png); display: block; }
+
+/*******Main Nav*******/
+
+#main-nav { width: 415px; height: 50px; }
+#main-nav ul { }
+#main-nav ul li { list-style: none; float: left; }
+#main-nav .link01 a { width: 100px; height: 50px; background: url(../../images/admin/nav-1.jpg); margin-right: 5px; display: block; }
+#main-nav .link01 a:hover { background-position: bottom; }
+
+#main-nav .link02 a { width: 100px; height: 50px; background: url(../../images/admin/nav-2.jpg);margin-right: 5px; display: block; }
+#main-nav .link02 a:hover { background-position: bottom; }
+
+#main-nav .link03 a { width: 100px; height: 50px; background: url(../../images/admin/nav-3.jpg);margin-right: 5px; display: block; }
+#main-nav .link03 a:hover { background-position: bottom; }
+
+#main-nav .link04 a { width: 100px; height: 50px; background: url(../../images/admin/nav-4.jpg); display: block; }
+#main-nav .link04 a:hover { background-position: bottom; }
+
+
+/*******Dashboard*******/
+#dashboard { width: 960px; }
+#dashboard .border-white { background: #fff; padding: 1px; }
+#dashboard .border-white .dash-container { height: 430px; width: 956px; border: 1px solid #215a6d; }
+#dashboard .border-white .dash-container .title { background: #d5e0e2; border-bottom: 1px solid #c8d4cf; padding: 20px; }
+#dashboard .border-white .dash-container .title h1 { font-weight: bold; font-size: 26px; color:# 2d2d29; }
+#dashboard .border-white .dash-container .dash-nav { padding: 20px; }
+#dashboard .border-white .dash-container .dash-nav .blocks { width: 202px; height: 130px; border: 1px solid #cfd3d4; padding: 20px 10px 10px 10px; margin-right: 5px; }
+#dashboard .border-white .dash-container .dash-nav .blocks h1 { color: #2d2d29; font-size: 18px; line-height: 20px; font-weight: normal; }
+#dashboard .border-white .dash-container .dash-nav .blocks p { color: #3e4944; font-size: 11px; line-height: 15px; }
+#dashboard .border-white .dash-container .dash-nav .blocks a { font-weight: normal; font-size: 18px; color:#2d2d29; line-height: 20px; text-decoration: none; display: block; }
+#dashboard .border-white .dash-container .dash-nav .blocks a:hover { text-decoration: underline; }
+
+#content { width: 960px; margin-top:20px; }
+#content .border-white { background: #fff; padding: 1px; }
+#content .border-white .content-container { height: auto; width: 956px; border: 1px solid #215a6d; }
+#content .border-white .content-container .title  { background: #d5e0e2; border-bottom: 1px solid #c8d4cf; padding: 20px; }
+#content .border-white .content-container .title h1 { font-weight: bold; font-size: 26px; color:# 2d2d29; }
+
+#content .border-white .content-container ul.tab { margin-top: 19px; }
+#content .border-white .content-container ul.tab li { background: #14505b; float:left; margin-right: 2px; border: 1px solid #b0bdb7; }
+#content .border-white .content-container ul.tab li a { background: #2d2d29; display: block; padding: 10px 20px; color: #fff; text-decoration: none; }
+#content .border-white .content-container ul.tab li a:hover { background: #14505b; display: block; padding: 10px 20px; color: #fff;  }
+#content .border-white .content-container ul.tab li a.active { background: #14505b; display: block; padding: 10px 20px; color: #fff;  }
+
+
+#content .border-white .content-container .content-text { padding: 20px; }
+#content .border-white .content-container .content-text  ul.action-btns { padding-top: 5px; }
+#content .border-white .content-container .content-text  ul.action-btns li { list-style: none; float: left; }
+#content .border-white .content-container .content-text  ul.action-btns li a { display: block; background: url(../../images/admin/icons-action.png); width: 62px; height: 18px;  }
+#content .border-white .content-container .content-text  ul.action-btns li a:hover {opacity:0.4;filter:alpha(opacity=40)}
+#content .border-white .content-container .content-text  ul.action-btns li.link01 a { width: 20px; height: 18px; }
+#content .border-white .content-container .content-text  ul.action-btns li.link02 a { width: 23px; height: 18px; background-position: 43px; }
+#content .border-white .content-container .content-text  ul.action-btns li.link03 a { width: 19px; height: 18px; background-position: 20px; }
+#content .border-white .content-container .content-text  ul.action-btns a:hover{ cursor:pointer;}
+
+#content .border-white .content-container .content-text table.list { color: #2d2d29; font-size:12px; margin: 20px 0; border: 1px solid #dae5e3; 
+border-right: 0; border-bottom: 0; }
+#content .border-white .content-container .content-text table.list a { text-decoration: none; color: #2d2d29; }
+#content .border-white .content-container .content-text table.list a:hover { text-decoration: underline; }
+
+#content .border-white .content-container .content-text table.list td { border-bottom: 1px solid #dae5e3; border-right: 1px solid #dae5e3; }
+#content .border-white .content-container .content-text table.list tr.title  { color: #fff; font-weight: bold; background: #3b6d76; }
+#content .border-white .content-container .content-text table.list tr.colored { background: #e8eeeb; }
+
+#content .border-white .content-container .content-text ul.pagination {}
+#content .border-white .content-container .content-text ul.pagination {}
+#content .border-white .content-container .content-text ul.pagination li { color: #3b6d76; font-size: 12px; float:left; }
+#content .border-white .content-container .content-text ul.pagination li a { text-decoration: none; color: #3b6d76; }
+#content .border-white .content-container .content-text ul.pagination li a:hover { text-decoration: underline; }
+
+#content .border-white .content-container .content-text ul.pagination li.pages  {  margin: 0 10px;  }
+#content .border-white .content-container .content-text ul.pagination li.pages { margin: 0 2px; }
+#content .border-white .content-container .content-text ul.pagination li.pages a { width: 14px; height: 14px; line-height: 14px; text-align:center; border: 1px solid #3b6d76; text-decoration:none; display: block; }
+#content .border-white .content-container .content-text ul.pagination li.pages li a:hover,
+#content .border-white .content-container .content-text ul.pagination li.active a{ width: 14px; height: 14px; line-height: 14px; text-align:center; border: 1px solid #3b6d76; text-decoration:none; display: block; background: #3b6d76; color:#fff; }
+
+#content .border-white .content-container .content-text .green-btn a{ height: 20px; width:94px; background: url(../../images/admin/green-btn.png); display: block; color: #fff; font-size: 12px; text-decoration: none; font-weight: bold; text-align:center; padding-top: 2px;}
+#content .border-white .content-container .content-text .green-btn a:hover { background-position: bottom; }
+
+
+/*******Footer*******/
+
+#footer { background: url(../../images/admin/footer-bg.jpg) repeat-x; height: 50px; }
+#footer .footer-text { width: 960px; margin: 0 auto; padding-top: 15px; }
+#footer a { color: #fff; text-decoration:none; }
+#footer a:hover { text-decoration: underline; }
+#footer p { font-size: 12px; color: #fff; }
+
+
+/**/
+.hoverPointer:hover{cursor: pointer;}
+
+

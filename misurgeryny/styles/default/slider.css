@@ -1,0 +1,25 @@
+/*
+    anythingSlider v1.2
+    
+    By Chris Coyier: http://css-tricks.com
+    with major improvements by Doug Neiner: http://pixelgraphics.us/
+    based on work by Remy Sharp: http://jqueryfordesigners.com/
+*/
+
+.anythingSlider { width: 960px; height: 320px; position: relative; }
+.anythingSlider .wrapah { width: 960px; overflow: auto; height: 320px; position: absolute; top: 0; left: 0; }
+.anythingSlider .wrapah ul { width: 32700px; list-style: none; position: absolute; top: 0; left: 0; margin: 0; padding: 0; }
+.anythingSlider .wrapah ul li { display: block; float: left; padding: 0; height: 320px; width: 960px; margin: 0; list-style: none; }
+
+/*  Hidden */
+.anythingSlider .arrow { visibility: hidden; }
+.anythingSlider .forward { visibility: hidden; }
+.anythingSlider .back { visibility: hidden; }
+
+#start-stop { background: #FFF; color: black; padding: 2px 5px; width: 40px; text-align: center; position: absolute; right: 20px; top: 325px; font: 11px Verdana, Geneva, sans-serif; height: 16px; text-decoration: none; display: none; }
+#start-stop.playing { background: #FFF; }
+#start-stop:hover { background: #a3ca33; color: white; }
+
+#thumbNav { position: relative; top: 170px; text-align: left; margin-left: 25px; }
+#thumbNav a { display: inline-block; height: 15px; margin: 0 5px 0 0; background: url(../images/btn-paginate.png) no-repeat; width: 15px; text-indent: -9999px; overflow: hidden; }
+#thumbNav a:hover, #thumbNav a.cur { background: url(../images/btn-paginate.png) no-repeat bottom left; }

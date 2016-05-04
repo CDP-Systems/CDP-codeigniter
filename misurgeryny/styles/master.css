@@ -1,0 +1,303 @@
+#calmain {
+
+	/* old-style reset here :) */
+
+	border: 0px;
+
+	padding: 0px;
+
+}
+
+
+
+#calmain table {
+
+	border-collapse: separate;
+
+	border: 1px solid #e2e2bd;
+
+	border-width: 0px 0px 1px 1px;
+
+	margin: 10px auto;
+
+	font-size: 20px;
+
+}
+
+#calmain td,#calmain th {
+
+	width: 79px;
+
+	height: 79px;
+
+	text-align: center;
+
+	vertical-align: middle;
+
+	background: url(../images/calendar/cells.png);
+
+	color: #444;
+
+	position: relative;
+
+}
+
+#calmain th {
+
+	height: 30px;
+
+	font-weight: bold;
+
+	font-size: 14px;
+
+}
+
+#calmain td:hover, th:hover {
+
+	background-position: 0px -81px;
+
+	color: #222;
+
+}
+
+#calmain td.date_has_event {
+
+	background-position: 162px 0px;
+
+	color: white;
+
+}
+
+#calmain td.date_has_event:hover {
+
+	background-position: 162px -81px;
+
+}
+
+
+
+#calmain td.date_has_event a { text-decoration: none; }
+
+#calmain td.date_has_event a:hover { text-decoration: underline; }
+
+
+
+#calmain td.padding {
+
+	background: url(../images/calendar/calpad.jpg);
+
+}
+
+#calmain td#today {
+
+	background-position: 81px 0px;
+
+	color: white;
+
+}
+
+#calmain td#today:hover {
+
+	background-position: 81px -81px;
+
+}
+
+.events {
+
+	position: relative;
+
+}
+
+.events ul {
+
+	text-align: left;
+
+	position: absolute;
+
+	display: none;
+
+	z-index: 1000;
+
+	padding: 15px;
+
+	background: #E7ECF2 url(../images/calendar/popup.png) no-repeat;
+
+	color: white;
+
+	border: 1px solid white;
+
+	font-size: 15px;
+
+	width: 200px;
+
+	-moz-border-radius: 3px;
+
+	-khtml-border-radius: 3px;
+
+	-webkit-border-radius: 3px;
+
+	-border-radius: 3px;
+
+	list-style: none;
+
+	color: #444444;
+
+	-webkit-box-shadow: 0px 8px 8px #333;
+
+}
+
+.events li {
+
+	padding-bottom: 5px;
+
+	list-style: none;
+
+}
+
+.events li span {
+
+	display: block;
+
+	font-size: 12px;
+
+	text-align: left;
+
+	color: #555;
+
+	
+
+}
+
+.events li span.title {
+
+	font-weight: bold;
+
+	color: #222;
+
+	list-style: none !important;
+
+}
+
+
+
+
+
+
+
+#calmain th a{
+
+text-decoration:none;
+
+font-size:120%;
+
+font-weight:bold;
+
+color: #000;
+
+outline-width:0;
+
+}
+
+
+
+.dayevents{
+	border: 1px solid #666666;
+
+	padding: 10px;
+
+	text-align: left;
+
+}
+
+
+
+.dayevents h3{
+
+	background:none repeat scroll 0 0 #303030;
+
+color:#FFFFFF;
+
+font-weight:normal;
+
+letter-spacing:0.15em;
+
+padding:10px;
+
+}
+
+
+
+#calmain{
+
+	margin-top: 50px;
+
+}
+
+
+
+.red { color: red;}
+
+.green { color: green; }
+
+.bold {font-weight: bold; }
+
+
+
+/* Y */
+
+#calmain td { text-align: right; vertical-align: top; font-size: 12px; padding: 0px 0 0 0; border-right: 1px solid #e2e2bd; }
+
+#calmain th { border-right: 1px solid #e2e2bd; }
+
+
+
+label.error {
+
+    color: red;
+
+    font-weight: bold;
+
+    position: absolute;
+
+    margin-left:10px;
+
+}
+
+/**
+  *
+  * TABLE SORTER 
+  *
+  */
+
+/* tables */
+table.sortable {
+	font-family:arial;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+
+table.sortable thead tr .header {
+	background-image: url(../images/sorter/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+table.sortable thead tr .headerSortUp {
+	background-image: url(../images/sorter/asc.gif);
+}
+table.sortable thead tr .headerSortDown {
+	background-image: url(../images/sorter/desc.gif);
+}
+table.sortable thead tr .headerSortDown, table.sortable thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+
+ol.decimal-list li {
+	list-style: decimal; margin-left: 20px;
+}
+
+
+

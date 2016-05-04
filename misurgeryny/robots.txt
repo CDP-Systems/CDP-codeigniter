@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /uploads
+Disallow: /uploads/admin
+Disallow: /uploads/callouts
+Disallow: /uploads/downloads
+Disallow: /uploads/podcasts
+Disallow: /uploads/testimonials
+Disallow: /uploads/videocast

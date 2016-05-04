@@ -1,0 +1,50 @@
+<h1>BMI Calculator Results</h1>
+<h2>Your BMI: <?php echo $bmi ?></h2>
+<p>Your BMI score indicates that you are <b style="color: #000"><?php echo $weight; ?></b> and have <b style="color: #000"><?php echo $health_risk ?></b> level of health risk.</p><br />
+
+<h2 style="font-size:14px; color:#016c96; padding-bottom:0; margin-bottom:0"><b>BMI Chart</b></h2><br />
+ 
+<style>
+.chart { border-color: #CCC; border-style: solid solid solid none; border-width: 1px 1px 1px 0; margin: 10px 0 20px; width: 100%; }
+.chart th { border-left: 1px solid #CCCCCC; padding: 10px; background: #DDD; }
+.chart td { border-color: #CCCCCC -moz-use-text-color -moz-use-text-color #CCCCCC; border-style: solid none none solid; border-width: 1px 0 0 1px; padding: 10px; }
+.chart .first { background: #EEE; }
+</style>
+ 
+ <table width="0"  cellspacing="0" cellpadding="0" class="chart">
+      <tr class="title">
+        <th><strong>BMI</strong></th>
+        <th><strong>Classification</strong></th>
+        <th><strong>Health Risk</strong></th>
+      </tr>
+      <tr>
+        <td class="first">Under 18.5</td>
+        <td>Underweight</td>
+        <td>Minimal </td>
+      </tr>
+      <tr>
+        <td class="first">18.5 - 24.9</td>
+        <td>Normal Weight</td>
+        <td>Minimal</td>
+      </tr>
+      <tr>
+        <td class="first">25 - 29.9</td>
+        <td>Overweight</td>
+        <td>Increased</td>
+      </tr>
+      <tr>
+        <td class="first">30 - 34.9</td>
+        <td>Obese</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td class="first">35 - 39.9</td>
+        <td>Severely Obese</td>
+        <td>Very High</td>
+      </tr>
+      <tr>
+        <td class="first">40 and Over</td>
+        <td>Morbidly Obese</td>
+        <td>Extremely High </td>
+      </tr>
+</table>

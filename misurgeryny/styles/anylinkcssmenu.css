@@ -1,0 +1,28 @@
+.selectedanchor {  background-color: #fff; }
+
+/* ######### Alternate multi-column class for drop down menus ######### */
+
+.anylinkcss { position: absolute; left: 0; top: 0; visibility: hidden; z-index: 200; float: left; }
+.anylinkcss ul { margin: 0; list-style-type: none; background: url(../../images/default/bg-dropdown.png) right bottom; padding: 17px 0 12px; }
+.anylinkcss li { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform: uppercase; background: #d86329; padding: 0 20px 10px 0; }
+.anylinkcss li a { color: #FFF; text-decoration: none; font-size: 11px; display: block; }
+.anylinkcss li a:hover  { color: #E6DB88; }
+.anylinkcss li.last { padding-bottom: 5px; }
+
+/* ######### class for shadow DIV ######### */
+
+.anylinkshadow { position: absolute; left: 0; top: 0; z-index: 100; background: black; visibility: hidden; display: none; }
+
+/* Y */
+#main-nav { position: relative; }
+#main-nav ul li { position: absolute; top: -10px; z-index: 300; }
+#main-nav ul li.link01 { margin-left: 0; }
+#main-nav ul li.link02 { margin-left: 93px; }
+#main-nav ul li.link03 { margin-left: 186px; }
+#main-nav ul li.link04 { margin-left: 292px; }
+#main-nav ul li.link05 { margin-left: 423px; }
+#main-nav ul li.link06 { margin-left: 550px; }
+#main-nav ul li.link07 { margin-left: 653px; }
+#main-nav ul li.link08 { margin-left: 783px; }
+
+.anylinkcss { margin-top: 10px; background: url(../../images/default/bg-dropdown.png) left bottom; padding-left: 20px; }
